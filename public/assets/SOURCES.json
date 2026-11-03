@@ -1,0 +1,105 @@
+﻿{
+    "repository":  "https://github.com/mochiiwuff/capri-desktop",
+    "commit":  "3e6f529e6875856869789265786ab3e3df14a293",
+    "retrievedUtc":  "2026-10-30T18:19:03.6614534Z",
+    "purpose":  "README illustrations for local Capri art and animation reference; not a complete rigged model.",
+    "rights":  "Repository code license does not cover character artwork. Preserve attribution; see upstream README and LICENSE.",
+    "images":  [
+                   {
+                       "file":  "done.png",
+                       "description":  "Capri telling you Claude is done",
+                       "repositoryPath":  "docs/done.png",
+                       "source":  "https://raw.githubusercontent.com/mochiiwuff/capri-desktop/3e6f529e6875856869789265786ab3e3df14a293/docs/done.png",
+                       "bytes":  75547,
+                       "sha256":  "cd6d7b2cd2b3fe16a78379f87dd551dd57b3a92ed81f65211ed481cc46b12644"
+                   },
+                   {
+                       "file":  "teleport.png",
+                       "description":  "Teleport, frame by frame",
+                       "repositoryPath":  "docs/teleport.png",
+                       "source":  "https://raw.githubusercontent.com/mochiiwuff/capri-desktop/3e6f529e6875856869789265786ab3e3df14a293/docs/teleport.png",
+                       "bytes":  152355,
+                       "sha256":  "4dc157e057e9797c681cbe7b5ae2fd7706ebc9ccc9fb391ea6edb8a1cd331184"
+                   },
+                   {
+                       "file":  "intro.png",
+                       "description":  "Her intro: her hands on the edges, her face hitting the glass, the wave, holding on again",
+                       "repositoryPath":  "docs/intro.png",
+                       "source":  "https://raw.githubusercontent.com/mochiiwuff/capri-desktop/3e6f529e6875856869789265786ab3e3df14a293/docs/intro.png",
+                       "bytes":  231319,
+                       "sha256":  "862d7f4daf8483870d69ada79a3dbf50d7a2a24802a8278b3e0734d1dd19cffe"
+                   },
+                   {
+                       "file":  "victory.png",
+                       "description":  "Victory: the key pose, then the laugh and the cut-in",
+                       "repositoryPath":  "docs/victory.png",
+                       "source":  "https://raw.githubusercontent.com/mochiiwuff/capri-desktop/3e6f529e6875856869789265786ab3e3df14a293/docs/victory.png",
+                       "bytes":  113366,
+                       "sha256":  "bf983d793fc02a7950085ec32b4996afbb078777736ec6d684036233ead8c18b"
+                   },
+                   {
+                       "file":  "star.png",
+                       "description":  "The satellite: her stars, the road, the red light, the answer",
+                       "repositoryPath":  "docs/star.png",
+                       "source":  "https://raw.githubusercontent.com/mochiiwuff/capri-desktop/3e6f529e6875856869789265786ab3e3df14a293/docs/star.png",
+                       "bytes":  132553,
+                       "sha256":  "5ab78a9488fc8452de29c54538de077ef7e8c90f45d90fea894875425f350a0d"
+                   },
+                   {
+                       "file":  "sit.png",
+                       "description":  "Sitting on a window",
+                       "repositoryPath":  "docs/sit.png",
+                       "source":  "https://raw.githubusercontent.com/mochiiwuff/capri-desktop/3e6f529e6875856869789265786ab3e3df14a293/docs/sit.png",
+                       "bytes":  32236,
+                       "sha256":  "b8a9caeda65f0317558e86be209ec5d61501d805187957324b3b7855f5353fb0"
+                   },
+                   {
+                       "file":  "peek.png",
+                       "description":  "Peeking in from the edges",
+                       "repositoryPath":  "docs/peek.png",
+                       "source":  "https://raw.githubusercontent.com/mochiiwuff/capri-desktop/3e6f529e6875856869789265786ab3e3df14a293/docs/peek.png",
+                       "bytes":  80918,
+                       "sha256":  "82ae808654640d5b7bebfa089b3777215241048cde7fc4e043617d1aa958971f"
+                   },
+                   {
+                       "file":  "possess.png",
+                       "description":  "Possessing a window: the dive, the hit, the window full of eyes",
+                       "repositoryPath":  "docs/possess.png",
+                       "source":  "https://raw.githubusercontent.com/mochiiwuff/capri-desktop/3e6f529e6875856869789265786ab3e3df14a293/docs/possess.png",
+                       "bytes":  82022,
+                       "sha256":  "d67ad3221184b725cbe5deb22bd7e8688a686c15399eb215f9a716392b7f48e8"
+                   },
+                   {
+                       "file":  "sleep.png",
+                       "description":  "Asleep down to her mask, waking up, and put away bottom left",
+                       "repositoryPath":  "docs/sleep.png",
+                       "source":  "https://raw.githubusercontent.com/mochiiwuff/capri-desktop/3e6f529e6875856869789265786ab3e3df14a293/docs/sleep.png",
+                       "bytes":  44773,
+                       "sha256":  "6022b469c4141a575ccb9f9e5719f9d3795911912a292fc68c0dc55f889f0000"
+                   },
+                   {
+                       "file":  "point.png",
+                       "description":  "The strike, and the hold while she explains",
+                       "repositoryPath":  "docs/point.png",
+                       "source":  "https://raw.githubusercontent.com/mochiiwuff/capri-desktop/3e6f529e6875856869789265786ab3e3df14a293/docs/point.png",
+                       "bytes":  70038,
+                       "sha256":  "a830d66a1f60627ec52206f0df6907e125c71c9472cf9dd91dabd8e3231b9365"
+                   },
+                   {
+                       "file":  "guide.png",
+                       "description":  "Pointing at Claude\u0027s window during a permission prompt, and at her tray icon",
+                       "repositoryPath":  "docs/guide.png",
+                       "source":  "https://raw.githubusercontent.com/mochiiwuff/capri-desktop/3e6f529e6875856869789265786ab3e3df14a293/docs/guide.png",
+                       "bytes":  74154,
+                       "sha256":  "b7a8fd4f12c3840f632cd07a23fddc1039f4e0c5225632949f51395c1d777347"
+                   },
+                   {
+                       "file":  "faces.png",
+                       "description":  "Her eight faces",
+                       "repositoryPath":  "docs/faces.png",
+                       "source":  "https://raw.githubusercontent.com/mochiiwuff/capri-desktop/3e6f529e6875856869789265786ab3e3df14a293/docs/faces.png",
+                       "bytes":  143102,
+                       "sha256":  "a27089c6665146254b9fd79a700fa25644e1d3fa1ed66c4fd16b08bc8e00d316"
+                   }
+               ]
+}

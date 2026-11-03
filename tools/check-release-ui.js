@@ -1,0 +1,17 @@
+const {chromium}=require('@playwright/test'),{spawn}=require('node:child_process'),fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+(async()=>{
+ const profile=path.resolve('.cache/capricorn-fresh-install-data'),evidence=fs.mkdtempSync(path.resolve('.cache/release-ui-'));
+ const env={...process.env,CAPRI_SKIP_INTRO:'1',CAPRI_DATA_DIR:profile,PATH:process.env.SystemRoot+'\\System32;'+process.env.SystemRoot};
+ for(const key of ['ELECTRON_RUN_AS_NODE','CAPRI_NODE_PATH','CAPRI_PYTHON_PATH','PYTHONPATH','PYTHONHOME','CAPRI_OLLAMA_URL','CAPRI_OLLAMA_EXE'])delete env[key];
+ const child=spawn(path.resolve('dist/win-unpacked/Capricorn.exe'),['--remote-debugging-port=0'],{env,windowsHide:false,stdio:['ignore','ignore','pipe']});let browser,page;const report={checks:[],errors:[]};
+ try{
+  const endpoint=await new Promise((resolve,reject)=>{let output='';const timer=setTimeout(()=>reject(Error('No debugger endpoint')),45000);child.stderr.on('data',c=>{output+=c;const m=output.match(/DevTools listening on (ws:\/\/[^\s]+)/);if(m){clearTimeout(timer);resolve(m[1]);}});child.once('error',reject);});
+  browser=await chromium.connectOverCDP(endpoint);
+  for(let attempt=0;attempt<120;attempt++){const pages=browser.contexts()[0].pages();const setup=pages.find(p=>p.url().includes('/setup'));if(setup&&await setup.locator('#setup-open').isEnabled().catch(()=>false))await setup.locator('#setup-open').click();page=pages.find(p=>p.url().includes('/pet'));if(page)break;await new Promise(r=>setTimeout(r,500));}
+  assert.ok(page,'Packaged setup must open the companion');page.on('pageerror',e=>report.errors.push(e.message));await page.waitForSelector('#toggle-chat');await page.evaluate(()=>window.capriPreferencesReady);await page.locator('#toggle-chat').click();await page.locator('#read-replies').uncheck();
+  for(const [text,pattern,windowExpected] of [['What is 7 plus 8?',/15|fifteen/i],['What is the capital of Japan?',/Tokyo/i],['Could you get Notepad running?',/Launch request sent.*notepad/i,true],['Can you pull up Chrome?',/Launch request sent.*chrome/i,true],['Open it.',/Which app/i],['/list C:\\Windows',/excluded/i]]){
+   const start=Date.now();await page.locator('#message').fill(text);await page.locator('#send').click();await page.waitForFunction(()=>!document.querySelector('#send').disabled,{},{timeout:210000});const reply=await page.locator('#messages .assistant').last().innerText();assert.match(reply,pattern,text);if(windowExpected)assert.match(reply,/Its window is right here/i);report.checks.push({text,reply,ms:Date.now()-start});console.log('PASS',text,reply);
+  }
+  await page.screenshot({path:path.join(evidence,'packaged-ui.png')});assert.deepEqual(report.errors,[]);await page.locator('#quit').click({noWaitAfter:true});await new Promise((resolve,reject)=>{if(child.exitCode!==null)return resolve();const timer=setTimeout(()=>reject(Error('Packaged app did not exit')),15000);child.once('exit',()=>{clearTimeout(timer);resolve();});});assert.equal(child.exitCode,0);report.exitCode=child.exitCode;
+ }finally{fs.writeFileSync(path.join(evidence,'report.json'),JSON.stringify(report,null,2));console.log('REPORT',path.join(evidence,'report.json'));if(child.exitCode===null)child.kill();await Promise.race([browser?.close(),new Promise(resolve=>setTimeout(resolve,2000))]);}
+})().then(()=>process.exit(0)).catch(e=>{console.error(e);process.exit(1);});

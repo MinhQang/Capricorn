@@ -1,0 +1,29 @@
+{
+  "name": "capricorn",
+  "version": "0.3.2",
+  "private": true,
+  "scripts": {
+    "start": "node launch.js",
+    "test": "node --test",
+    "start:browser": "node server.js",
+    "build:win": "electron-builder --config electron-builder.config.cjs --win nsis --x64",
+    "build:unpacked": "electron-builder --config electron-builder.config.cjs --win dir --x64",
+    "prepare:ollama": "node tools/prepare-ollama.js",
+    "release:prepare": "node tools/prepare-release.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "electron": "^44.9.3",
+    "electron-builder": "^26.18.0"
+  },
+  "main": "desktop/main.js",
+  "description": "Capricorn - local Capri desktop companion",
+  "author": "Capri local project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MinhQang/Capricorn.git"
+  }
+}

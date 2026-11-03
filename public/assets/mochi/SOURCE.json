@@ -1,0 +1,126 @@
+{
+  "repository": "https://github.com/mochiiwuff/capri-desktop",
+  "revision": "3e6f529e6875856869789265786ab3e3df14a293",
+  "files": [
+    {
+      "file": "capri-cutout.png",
+      "source": "assets/capri/capri-cutout.png",
+      "sha256": "d2b505f3a649f7ded725835d7f33dc5402d4f3c3f867f313310e394ebec9b45d"
+    },
+    {
+      "file": "capri-face.png",
+      "source": "assets/capri/capri-face.png",
+      "sha256": "56d2546d06ec389f46ab3bce265524e8f3fd46ea7b8a666b4886984e83a0bba0"
+    },
+    {
+      "file": "capri-full.png",
+      "source": "assets/capri/capri-full.png",
+      "sha256": "7df28bdd6a264307d3a25bafaf12c2bba308d5aecd2dc03dcc9b176109f21aeb"
+    },
+    {
+      "file": "cutin-eyes.png",
+      "source": "assets/capri/cutin-eyes.png",
+      "sha256": "a0d6fb18b7a384f866d9151c859c0e8762328c933af785fb128c524e3ae36852"
+    },
+    {
+      "file": "cutin-grin.png",
+      "source": "assets/capri/cutin-grin.png",
+      "sha256": "24b98c9f7e717aefb7855cd7b9532fec0bd24e29a1d15713408332d8ecdb3d65"
+    },
+    {
+      "file": "cutin-laugh.png",
+      "source": "assets/capri/cutin-laugh.png",
+      "sha256": "e856783445e411536e4d34a7622a83405f8b3d2da2786883a2146105a8f16496"
+    },
+    {
+      "file": "cutin-look.png",
+      "source": "assets/capri/cutin-look.png",
+      "sha256": "ec693184070926921e0f7b3b5d325a2acf4405bb05540ccc09ba97e297192f4e"
+    },
+    {
+      "file": "cutin-many.png",
+      "source": "assets/capri/cutin-many.png",
+      "sha256": "3e374eca7ab4d1d3401c3d5bc82499e20edd4ceb5029e868d4f55353d9f2e5a4"
+    },
+    {
+      "file": "face-aside.png",
+      "source": "assets/capri/face-aside.png",
+      "sha256": "b559b2678ec42439fb2b2801dcffcc47c33bb6c48f33f97f31985609d51ba4d6"
+    },
+    {
+      "file": "face-calm.png",
+      "source": "assets/capri/face-calm.png",
+      "sha256": "befe8f647c6d12058b3c710519ea49b5750502732d6e10c80a04b4d9f754c6b8"
+    },
+    {
+      "file": "face-laugh.png",
+      "source": "assets/capri/face-laugh.png",
+      "sha256": "89cbf307dee4421532fe02959a75fdce6322ad2dd1063b1cd5b4b5a22e32594f"
+    },
+    {
+      "file": "face-look.png",
+      "source": "assets/capri/face-look.png",
+      "sha256": "fe589f8a1ad8f8e5bdd3dd9bb9304a6da723e7678ca9cfc8d72eb4301ccbc9e5"
+    },
+    {
+      "file": "face-many.png",
+      "source": "assets/capri/face-many.png",
+      "sha256": "9263f26c5ffb45a7981b2c11bb348be6f4ca3bfbba787517da1f77d421145e09"
+    },
+    {
+      "file": "face-smug.png",
+      "source": "assets/capri/face-smug.png",
+      "sha256": "37dec337c2825a63cf4697de04c57192a4f650d92697de2108c6928e74bf2299"
+    },
+    {
+      "file": "face-wide.png",
+      "source": "assets/capri/face-wide.png",
+      "sha256": "56bd354b6df06202453b189c72c4f1cccd69b9dfb74628c014bd73a41c92371e"
+    },
+    {
+      "file": "intro-grab.webp",
+      "source": "assets/capri/intro-grab.webp",
+      "sha256": "7cb83b4ee33583f7521f8ac8208b6e06417bef6bd59171ba4c478daf67443e6c"
+    },
+    {
+      "file": "intro-happy.webp",
+      "source": "assets/capri/intro-happy.webp",
+      "sha256": "fd35513fb8111d9fc9d39b6d81ff87251476cc83a6c6306860c76e26d3cef324"
+    },
+    {
+      "file": "intro-mouth1.webp",
+      "source": "assets/capri/intro-mouth1.webp",
+      "sha256": "24235f205bfaa97a316e9b1c0680004b8484f4dbcca521c5ca3c27e2584f5d17"
+    },
+    {
+      "file": "intro-mouth2.webp",
+      "source": "assets/capri/intro-mouth2.webp",
+      "sha256": "0fa4e18eaeaefe3727e35f97908fa1a53af774d143e54bbf327fa971c178b7f8"
+    },
+    {
+      "file": "intro-mouth3.webp",
+      "source": "assets/capri/intro-mouth3.webp",
+      "sha256": "941988db91d965ad1afdbeddae066231958a644d6adeb5b8d1c5d715f37ca4b1"
+    },
+    {
+      "file": "intro-smear.webp",
+      "source": "assets/capri/intro-smear.webp",
+      "sha256": "c965054495eb6f260654f472395199711d71f6e8d15c7ccba14658facca7f620"
+    },
+    {
+      "file": "intro-wave1.webp",
+      "source": "assets/capri/intro-wave1.webp",
+      "sha256": "16f790a5a60da5154c77629659a4240f631e6929e6a6f1611b82a88ef7ad8a02"
+    },
+    {
+      "file": "intro-wave2.webp",
+      "source": "assets/capri/intro-wave2.webp",
+      "sha256": "3dafd1ae30253eff96e897d8c12f2160140586a1710240caa0490151160faa16"
+    },
+    {
+      "file": "intro-wave3.webp",
+      "source": "assets/capri/intro-wave3.webp",
+      "sha256": "c9eae6f0b8645458163a6d714897a0310898808ba12baf5ef630ebbc7c8a274b"
+    }
+  ]
+}

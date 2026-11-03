@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/mochiiwuff/capri-desktop",
+  "commit": "3e6f529e6875856869789265786ab3e3df14a293",
+  "referenceFiles": [
+    "src/renderer/js/sprite.js",
+    "src/renderer/js/acting.js",
+    "assets/capri/capri-full.png",
+    "LICENSE"
+  ],
+  "note": "Historical upstream references for the retained static pointing pose. Unused local joint/shader code and baked atlas were removed."
+}

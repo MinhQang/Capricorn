@@ -1,0 +1,20 @@
+{
+  "providedBy": "user",
+  "files": [
+    {
+      "file": "user-thinking.webp",
+      "source": "E:/Capri_data/Capri_thinking-1.webp",
+      "sha256": "99e3d0f74706d9a5cb248d6b98914d23ed4b51efec6d80eea779127aebdb7036"
+    },
+    {
+      "file": "user-wink.webp",
+      "source": "E:/Capri_data/Capri_eyes_blink_1.webp",
+      "sha256": "f604e190624db3fabd6429d8af9506e8990acd37a613194cec5475ac700d0c14"
+    },
+    {
+      "file": "user-eyes.webp",
+      "source": "E:/Capri_data/1Capri_eyes_.webp",
+      "sha256": "6178be0dcf2fa401c8b4934f2f07ed87d487a3b546f50480678616b474402d07"
+    }
+  ]
+}

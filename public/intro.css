@@ -1,0 +1,12 @@
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:transparent;pointer-events:none;color:#64efff}
+#arrival{position:fixed;inset:0;width:100%;height:100%}
+#signature{position:absolute;left:8%;width:84%;text-align:center;top:62%;opacity:1}
+h1{display:inline-block;margin:12px 0 14px;padding:4px 10px;background:transparent;border:0;font-family:'Segoe UI Light','Segoe UI',sans-serif;font-size:clamp(18px,2.6vw,34px);font-weight:100;font-synthesis:none;letter-spacing:4px;line-height:1.5;color:#82f5ff;text-shadow:0 0 2px #00cfff33}
+h1 strong{font-weight:100;color:inherit;text-shadow:inherit}
+h1 span{font-family:inherit;font-size:.65em;font-weight:100;color:#9af6ff;letter-spacing:2px;white-space:nowrap}
+.signal-label,.signature-rule{display:none}
+body[data-phase=fragment] #signature{opacity:0;transform:translateY(8px);transition:opacity .18s,transform .18s}
+body[data-phase=crt] #signature,body[data-phase=complete] #signature{display:none}
+@media(max-width:600px){h1{letter-spacing:2px;padding:4px 10px}h1 span{display:block}}
+@media(prefers-reduced-motion:reduce){#signature{transition:none!important;transform:none!important}}
+

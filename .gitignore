@@ -1,0 +1,12 @@
+.cache/
+.tools/
+reference-analysis/
+node_modules/
+.models/
+
+dist/
+release/
+/Capricorn-Setup-*.exe
+/Capricorn-Setup-*.exe.sha256
+__pycache__/
+*.pyc

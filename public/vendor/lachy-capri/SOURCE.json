@@ -1,0 +1,106 @@
+{
+  "repository": "https://github.com/lachydotmcg/capri-desktop",
+  "revision": "eb1aecd4831829285044b87111497668024a0695",
+  "referenceCode": [
+    "app/Capri.cs",
+    "cross/Pet.cs",
+    "site/helper.js",
+    "app/Voice.cs",
+    "app/VoicePack.cs"
+  ],
+  "changes": "Sprites normalized to 224x256 with native 30 fps loops retained. Runtime written for Canvas 2D with bounded lazy image cache. Synthetic voice speaker 53 and tuned pitch/speed/delayed-layer settings are adapted from the verified voice-pack-1 release; no upstream cloud services or executable run.",
+  "files": [
+    {
+      "path": "assets/sprites/arrive.png",
+      "sha256": "be03a983e65d2de7fc9ef3f992759610431ee5f4a750af580d36dfe607ca51c7"
+    },
+    {
+      "path": "assets/sprites/blink.png",
+      "sha256": "c0c8b7b423558804f92d53ac6572fca6c61717533c950718bb3e1690fa3e056c"
+    },
+    {
+      "path": "assets/sprites/blink_glitch.png",
+      "sha256": "177ca393b6721ff6d1ce94ce8dc444c33a1394f88cba0352075b4ea200688822"
+    },
+    {
+      "path": "assets/sprites/dance.png",
+      "sha256": "133e7264f411391257fbb5795d47631b6c4d9b612f9975c9a703f90c6e48c152"
+    },
+    {
+      "path": "assets/sprites/dangle.png",
+      "sha256": "0d92f9ece48e0c0ccc728cb49322227c73f34458b14eb32606020bf3c5c98b5f"
+    },
+    {
+      "path": "assets/sprites/face.png",
+      "sha256": "3e8ef09e579e17e33055267bed7f62db54879c993e3a3658df41b04dd445d29f"
+    },
+    {
+      "path": "assets/sprites/glitch.png",
+      "sha256": "f108f696a36db25de2162b128982ef30ae1c066b6594885b284bab8b22d80252"
+    },
+    {
+      "path": "assets/sprites/grin.png",
+      "sha256": "760e8f9378389d6776f9e2477ffcb9e2c62a0a56bffce328c5d8c6710b21dbd4"
+    },
+    {
+      "path": "assets/sprites/idle.png",
+      "sha256": "ed63f8c677afa9c2be8b76e850547882b88fa76ea9206e3d20f758cce65ed2a0"
+    },
+    {
+      "path": "assets/sprites/laydown.png",
+      "sha256": "c13153f60c3543efaea6006bfa64221a5923651bae382aa302d6801ac7704cbf"
+    },
+    {
+      "path": "assets/sprites/laydown_blink.png",
+      "sha256": "4cf6bc933bd3384610e6a1c6f0e287e23a1feb5ef0863204f8adbd47fbe4f32c"
+    },
+    {
+      "path": "assets/sprites/laydown_sleep.png",
+      "sha256": "5a747bbe66379e4f65f3f398a97198d8182eac5cd52c40aa4bf4ba8f3905dc49"
+    },
+    {
+      "path": "assets/sprites/laydown_talk.png",
+      "sha256": "f0c36e913cea82b0595383befdf3e0f7a583c405d587091d8822bfa5b0886634"
+    },
+    {
+      "path": "assets/sprites/mouth.png",
+      "sha256": "50ceb781213aeb439197499968637f6aec0e9e9504c5261316aebc8292e71c0d"
+    },
+    {
+      "path": "assets/sprites/perch.png",
+      "sha256": "431e418dcb419d92a2893ec026493ce9fd8b6e5942b76c734e53c459ff9df66b"
+    },
+    {
+      "path": "assets/sprites/perch_blink.png",
+      "sha256": "bb67abb8470fb0e006daba804d120d846805da55431691d05fbb95cd99800233"
+    },
+    {
+      "path": "assets/sprites/perch_blink_glitch.png",
+      "sha256": "57d521c58fd3e6fe55e44d602a3cb34479d23fc39435093fe8193a1cb7ae8348"
+    },
+    {
+      "path": "assets/sprites/perch_glitch.png",
+      "sha256": "195c2e1b0c87a8ac0f37438f899e8fee9248fa488f3437f7e001b1a88e2ccb1f"
+    },
+    {
+      "path": "assets/sprites/perch_music.png",
+      "sha256": "358a49b783ada47453f3a64113310121a2e6379749492109f31a5c943fe0cf15"
+    },
+    {
+      "path": "assets/sprites/perch_talk.png",
+      "sha256": "0f2cdeb193b805dd379d05cb8fc6a8ea1dcba1b197ad3c0731204d91862069d7"
+    },
+    {
+      "path": "assets/sprites/sleep.png",
+      "sha256": "f6dd6452ec73eebf1a04e4720771e1cd6f18c383aff3b1590478d12324f971a5"
+    },
+    {
+      "path": "assets/sprites/wake.png",
+      "sha256": "89a0ba1f5f000a310224ea074ff27c51da864301071a083c157f2213116555ba"
+    },
+    {
+      "path": "assets/sprites/walk.png",
+      "sha256": "68d8cc71cde4a240447f190136a075e10ef6f71520015cdee8ceefc202b2aebd"
+    }
+  ]
+}

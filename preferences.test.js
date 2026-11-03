@@ -1,0 +1,7 @@
+const {test}=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const os=require('node:os');const path=require('node:path');const {createPreferences}=require('./lib/preferences');
+test('settings persist validated partial updates and reject unknown/unsafe values',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'capri-prefs-'));try{const prefs=createPreferences(dir);assert.equal(prefs.get()['voice-speed'],95);prefs.patch({'voice-speed':100,'read-replies':true});assert.equal(createPreferences(dir).get()['voice-speed'],100);assert.equal(createPreferences(dir).get()['read-replies'],true);for(const patch of [{model:'cloud-model'},{'voice-speed':1000},{'read-replies':'yes'},{other:1}])assert.throws(()=>prefs.patch(patch));assert.equal(prefs.get()['voice-speed'],100);}finally{fs.rmSync(dir,{recursive:true,force:true});}
+});
+test('voice replies migrate on once, and a later mute remains saved',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'capri-voice-prefs-'));try{assert.equal(createPreferences(dir).get()['read-replies'],true);fs.writeFileSync(path.join(dir,'preferences.json'),JSON.stringify({'read-replies':false,'voice-speed':100}));const prefs=createPreferences(dir);assert.equal(prefs.get()['read-replies'],true);assert.equal(prefs.get()['voice-speed'],100);prefs.patch({'read-replies':false});assert.equal(createPreferences(dir).get()['read-replies'],false);}finally{fs.rmSync(dir,{recursive:true,force:true});}
+});

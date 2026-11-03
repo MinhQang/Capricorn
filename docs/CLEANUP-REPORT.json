@@ -1,0 +1,334 @@
+﻿{
+    "preserved":  [
+                      ".models active FP32 voice + speaker data",
+                      ".cache\\whisper",
+                      ".tools Python + speech environment",
+                      "node_modules",
+                      "all original emotes + retained poses",
+                      "licenses + provenance",
+                      "user references and Capri_data outside workspace"
+                  ],
+    "removed":  [
+                    {
+                        "path":  ".cache\\cel-check",
+                        "fileBytes":  22836406
+                    },
+                    {
+                        "path":  ".cache\\companion-ui-check",
+                        "fileBytes":  25937708
+                    },
+                    {
+                        "path":  ".cache\\computer-ui-lyTqui",
+                        "fileBytes":  10965140
+                    },
+                    {
+                        "path":  ".cache\\computer-ui-XidEfl",
+                        "fileBytes":  10965222
+                    },
+                    {
+                        "path":  ".cache\\cyberpunk-check",
+                        "fileBytes":  12364004
+                    },
+                    {
+                        "path":  ".cache\\desktop-check",
+                        "fileBytes":  17939101
+                    },
+                    {
+                        "path":  ".cache\\emote-check-MWXBMW",
+                        "fileBytes":  13933599
+                    },
+                    {
+                        "path":  ".cache\\emote-check-qLYhFD",
+                        "fileBytes":  13933599
+                    },
+                    {
+                        "path":  ".cache\\emote-check-sKw8E2",
+                        "fileBytes":  13933603
+                    },
+                    {
+                        "path":  ".cache\\emote-check-WxYR45",
+                        "fileBytes":  13933513
+                    },
+                    {
+                        "path":  ".cache\\live-planner-cBe6uY",
+                        "fileBytes":  25
+                    },
+                    {
+                        "path":  ".cache\\live-planner-ktO5UM",
+                        "fileBytes":  25
+                    },
+                    {
+                        "path":  ".cache\\live-planner-T4XTW8",
+                        "fileBytes":  50
+                    },
+                    {
+                        "path":  ".cache\\live-planner-Uuq3En",
+                        "fileBytes":  25
+                    },
+                    {
+                        "path":  ".cache\\live-planner-wx8fVZ",
+                        "fileBytes":  25
+                    },
+                    {
+                        "path":  ".cache\\mischief-check",
+                        "fileBytes":  11146913
+                    },
+                    {
+                        "path":  ".cache\\motion-build",
+                        "fileBytes":  4318699
+                    },
+                    {
+                        "path":  ".cache\\motion-check",
+                        "fileBytes":  3995300
+                    },
+                    {
+                        "path":  ".cache\\popup-check",
+                        "fileBytes":  22300883
+                    },
+                    {
+                        "path":  ".cache\\prosody-check",
+                        "fileBytes":  16384
+                    },
+                    {
+                        "path":  ".cache\\real-actions-check",
+                        "fileBytes":  17697312
+                    },
+                    {
+                        "path":  ".cache\\recycle-test-hjS7y3",
+                        "fileBytes":  0
+                    },
+                    {
+                        "path":  ".cache\\reference-voice-check",
+                        "fileBytes":  16384
+                    },
+                    {
+                        "path":  ".cache\\runtime-check",
+                        "fileBytes":  16384
+                    },
+                    {
+                        "path":  ".cache\\runtime-final",
+                        "fileBytes":  16384
+                    },
+                    {
+                        "path":  ".cache\\runtime-final2",
+                        "fileBytes":  16384
+                    },
+                    {
+                        "path":  ".cache\\sprite-build",
+                        "fileBytes":  13370811
+                    },
+                    {
+                        "path":  ".cache\\sprites-check",
+                        "fileBytes":  31972468
+                    },
+                    {
+                        "path":  ".cache\\uv",
+                        "fileBytes":  1100134145
+                    },
+                    {
+                        "path":  ".cache\\voice-feedback-check",
+                        "fileBytes":  10705689
+                    },
+                    {
+                        "path":  ".cache\\capri-fast-reference.wav",
+                        "fileBytes":  82186
+                    },
+                    {
+                        "path":  ".cache\\capri-larger-mischief.png",
+                        "fileBytes":  121340
+                    },
+                    {
+                        "path":  ".cache\\capri-mischief-demo.wav",
+                        "fileBytes":  308886
+                    },
+                    {
+                        "path":  ".cache\\capri-mischievous.wav",
+                        "fileBytes":  123720
+                    },
+                    {
+                        "path":  ".cache\\capri-playful.wav",
+                        "fileBytes":  131518
+                    },
+                    {
+                        "path":  ".cache\\capri-tuned-voice.wav",
+                        "fileBytes":  122656
+                    },
+                    {
+                        "path":  ".cache\\capri-warm.wav",
+                        "fileBytes":  154190
+                    },
+                    {
+                        "path":  ".cache\\cel-point.png",
+                        "fileBytes":  52061
+                    },
+                    {
+                        "path":  ".cache\\companion-chat-progress.png",
+                        "fileBytes":  122390
+                    },
+                    {
+                        "path":  ".cache\\companion-model-only.png",
+                        "fileBytes":  84719
+                    },
+                    {
+                        "path":  ".cache\\computer-tools-pet.png",
+                        "fileBytes":  80089
+                    },
+                    {
+                        "path":  ".cache\\cyberpunk-popup.png",
+                        "fileBytes":  117973
+                    },
+                    {
+                        "path":  ".cache\\cyberpunk-screen-hud.png",
+                        "fileBytes":  28161
+                    },
+                    {
+                        "path":  ".cache\\desktop-preview.png",
+                        "fileBytes":  950236
+                    },
+                    {
+                        "path":  ".cache\\digital-emote.png",
+                        "fileBytes":  47053
+                    },
+                    {
+                        "path":  ".cache\\emote-upright-preview.png",
+                        "fileBytes":  151701
+                    },
+                    {
+                        "path":  ".cache\\mochi-app.js",
+                        "fileBytes":  34642
+                    },
+                    {
+                        "path":  ".cache\\mochi-capri.js",
+                        "fileBytes":  96972
+                    },
+                    {
+                        "path":  ".cache\\mochi-chat.js",
+                        "fileBytes":  53205
+                    },
+                    {
+                        "path":  ".cache\\mochi-emotes-preview.png",
+                        "fileBytes":  131868
+                    },
+                    {
+                        "path":  ".cache\\mochi-fx.js",
+                        "fileBytes":  90515
+                    },
+                    {
+                        "path":  ".cache\\mochi-look.js",
+                        "fileBytes":  7024
+                    },
+                    {
+                        "path":  ".cache\\mochi-panel.js",
+                        "fileBytes":  23093
+                    },
+                    {
+                        "path":  ".cache\\motion-greeting.png",
+                        "fileBytes":  69622
+                    },
+                    {
+                        "path":  ".cache\\motion-sit.png",
+                        "fileBytes":  71546
+                    },
+                    {
+                        "path":  ".cache\\popup-check.png",
+                        "fileBytes":  84387
+                    },
+                    {
+                        "path":  ".cache\\sprites-laydown.png",
+                        "fileBytes":  31492
+                    },
+                    {
+                        "path":  ".cache\\sprites-laydown_sleep.png",
+                        "fileBytes":  32824
+                    },
+                    {
+                        "path":  ".cache\\sprites-perch.png",
+                        "fileBytes":  34739
+                    },
+                    {
+                        "path":  ".cache\\sprites-speaking.png",
+                        "fileBytes":  47743
+                    },
+                    {
+                        "path":  ".cache\\sprites-standing.png",
+                        "fileBytes":  47584
+                    },
+                    {
+                        "path":  ".cache\\tts-fp32-benchmark.json",
+                        "fileBytes":  155
+                    },
+                    {
+                        "path":  ".cache\\unified-expression.png",
+                        "fileBytes":  32922
+                    },
+                    {
+                        "path":  ".cache\\voice-check.wav",
+                        "fileBytes":  154668
+                    },
+                    {
+                        "path":  ".cache\\lachy-reference\\capri-voice-1.zip",
+                        "fileBytes":  316041808
+                    },
+                    {
+                        "path":  ".cache\\lachy-reference\\repository-voices.bin",
+                        "fileBytes":  28200960
+                    },
+                    {
+                        "path":  ".models\\kokoro-v1.0.int8.onnx",
+                        "fileBytes":  114119327
+                    },
+                    {
+                        "path":  "public\\assets\\capri-cels.png",
+                        "fileBytes":  2255316
+                    },
+                    {
+                        "path":  "public\\assets\\capri-cels.json",
+                        "fileBytes":  4975
+                    },
+                    {
+                        "path":  "public\\assets\\capri-prepared.png",
+                        "fileBytes":  73947
+                    }
+                ],
+    "skipped":  [
+
+                ],
+    "removedFileBytes":  1836886398,
+    "postVerification":  {
+                             "preserved":  [
+                                               ".models active FP32 voice + speaker data",
+                                               ".cache\\whisper",
+                                               ".tools Python + speech environment",
+                                               "node_modules",
+                                               "all original emotes + retained poses",
+                                               "licenses + provenance",
+                                               "user references and Capri_data outside workspace"
+                                           ],
+                             "removed":  [
+                                             {
+                                                 "path":  ".cache\\companion-ui-check",
+                                                 "fileBytes":  11487556
+                                             },
+                                             {
+                                                 "path":  ".cache\\computer-ui-mCwriY",
+                                                 "fileBytes":  10964992
+                                             },
+                                             {
+                                                 "path":  ".cache\\computer-ui-mWXmmb",
+                                                 "fileBytes":  10964996
+                                             },
+                                             {
+                                                 "path":  ".cache\\emote-check-hac4qU",
+                                                 "fileBytes":  13933623
+                                             },
+                                             {
+                                                 "path":  ".cache\\emote-check-vhVKwA",
+                                                 "fileBytes":  13933624
+                                             }
+                                         ],
+                             "skipped":  [
+
+                                         ],
+                             "removedFileBytes":  61284791
+                         }
+}
