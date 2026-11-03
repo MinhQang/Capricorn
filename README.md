@@ -5,7 +5,7 @@
 <!-- CAPRICORN-DOWNLOAD:START -->
 [![Download for Windows x64](https://img.shields.io/badge/Download-Windows_x64-8b35ff?style=for-the-badge)](https://github.com/MinhQang/Capricorn/releases/download/v0.3.2/Capricorn-Setup-0.3.2-x64.exe)
 
-[All releases](https://github.com/MinhQang/Capricorn/releases) · [SHA-256 checksum](https://github.com/MinhQang/Capricorn/releases/latest/download/Capricorn-Setup-0.3.2-x64.exe.sha256)
+[All releases](https://github.com/MinhQang/Capricorn/releases) · [SHA-256 checksum](https://github.com/MinhQang/Capricorn/releases/download/v0.3.2/Capricorn-Setup-0.3.2-x64.exe.sha256)
 <!-- CAPRICORN-DOWNLOAD:END -->
 
 Download the installer, close Capricorn if running, then install and launch it. Choose the local AI model during setup; it downloads automatically on first launch. No separate Node.js, Python or Ollama installation is required. Windows 10 22H2 / Windows 11 x64; 8 GB RAM recommended. First setup needs internet, then chat and voice run locally.

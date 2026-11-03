@@ -23,7 +23,7 @@ async function prepareRelease(artifact,repo=detectRepository()){
  fs.writeFileSync(path.join(directory,'RELEASE-NOTES.md'),`# Capricorn ${version}\n\nWindows x64 installer with bundled local AI engine, speech and recognition resources. The selected chat model downloads on first setup.\n\nNatural-language app requests, shared text/voice command routing, visible GUI app launch and window detection. Drive C file access stays excluded.\n\nDownload ${filename}, close Capricorn if already running, and run the installer.\n`);
  if(repo){
   const url='https://github.com/'+repo;
-  const block=`<!-- CAPRICORN-DOWNLOAD:START -->\n[![Download for Windows x64](https://img.shields.io/badge/Download-Windows_x64-8b35ff?style=for-the-badge)](${url}/releases/download/v${version}/${filename})\n\n[All releases](${url}/releases) · [SHA-256 checksum](${url}/releases/latest/download/${filename}.sha256)\n<!-- CAPRICORN-DOWNLOAD:END -->`;
+  const block=`<!-- CAPRICORN-DOWNLOAD:START -->\n[![Download for Windows x64](https://img.shields.io/badge/Download-Windows_x64-8b35ff?style=for-the-badge)](${url}/releases/download/v${version}/${filename})\n\n[All releases](${url}/releases) · [SHA-256 checksum](${url}/releases/download/v${version}/${filename}.sha256)\n<!-- CAPRICORN-DOWNLOAD:END -->`;
   const file=path.join(root,'README.md'),readme=fs.readFileSync(file,'utf8');
   if(!readme.includes('<!-- CAPRICORN-DOWNLOAD:START -->'))throw Error('README download block is missing.');
   fs.writeFileSync(file,readme.replace(/<!-- CAPRICORN-DOWNLOAD:START -->[\s\S]*?<!-- CAPRICORN-DOWNLOAD:END -->/,block));
